@@ -24,6 +24,12 @@
     background-color: #FFFFFF;;
 }
 
+.container{
+    width: 1600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:0 auto;
+}
 
 .header-logo{
     font-family: 'Raleway';
@@ -31,10 +37,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    /* identical to box height */
-    
     letter-spacing: 0.03em;
-    
     color: #000000;  
     text-decoration: none;
 }
