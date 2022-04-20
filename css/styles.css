@@ -217,6 +217,8 @@ body {
 
  .content-item-title {
     font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
  }
@@ -325,4 +327,5 @@ body {
 
 .footer-text {
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
 }

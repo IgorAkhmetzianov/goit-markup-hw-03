@@ -12,6 +12,12 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
+
+.button-secondary:hover,
+.button-secondary:focus{
+    background-color: #2196F3;
+}
+
 .icon-list{
     list-style: none;
 }
