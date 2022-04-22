@@ -26,18 +26,16 @@ body {
 
 /*-----------header--------------*/
 
-.header{
-    height: 50px;
+.header {
     background-color: var(--header-bg-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin:0 auto;
+
+
+.header.container {
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
 
 .header-logo {
@@ -50,6 +48,9 @@ body {
     letter-spacing: 0.03em;
     color: #000000;  
     text-decoration: none;
+    width: 145px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-logo-color {
@@ -58,22 +59,25 @@ body {
 
 .header-list {
     margin: 0 auto;
-    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     list-style: none;
     text-decoration: none;
 }
 
-.header-list li {
-    display: inline;
+.header-list {
+    display: flex;
 }
 
 .header-item {
+    display: flex;
     padding-right: 20px;
 }
 
-.header-navigation{
+.header-navigation {
     float: left;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -104,9 +108,8 @@ body {
     color: var(--second-hdr-text-color);
 }
 
-.contacts-list {
-    margin: 0 auto;
-    padding-top: 10px;
+.header-contact {
+    margin-left: ;
 }
 
 .contact-item {
@@ -146,21 +149,15 @@ body {
 
 .hero {
     background-color: var(--footer-bg-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
-
-.hero-container{
+.hero-container {
     width: 1600px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin:0 auto;
+    height: 600px;
+    margin-left: 0;
+    margin-top: 80px;
 }
-
-
 
 .hero-title {
-    margin: 0 auto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -169,7 +166,7 @@ body {
     text-transform: uppercase;
     color: var(--main-title-color);
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
     max-width: 696px;
 }
 
@@ -192,10 +189,14 @@ body {
 
 /*----------------content------------*/
 
- .content {
-    background: var(--main-bg-color);
+.container {
+    width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+ .content {
+    background: var(--main-bg-color);
  }
 
 .list {
@@ -234,8 +235,6 @@ body {
 
 .work {
     background: var(--main-bg-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .list {
@@ -252,10 +251,23 @@ body {
 
 /*-------------team-------------*/
 
+
+
+.team {
+    display: flex;
+}
+
+
+
 .team {
     background: var(--second-bg-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
+}
+
+.team-container {
+    width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px
 }
 
 .section-team-title {
@@ -263,7 +275,17 @@ body {
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--second-title-color)
+    color: var(--second-title-color);
+    width: 264px;
+    margin-bottom: 50px;
+    padding-top: 94px;
+    
+}
+
+.team-list {
+    list-style: none;
+    width: 1170px;
+    padding-bottom: 94px;
 }
 
 .team-item {
@@ -290,7 +312,15 @@ body {
 
 .footer {
     background: var(--footer-bg-color);  
+    display: flex;
 }
+
+.footer-container {
+    width: 1600px;
+    height: 252px;
+    margin: 0;
+}
+
 
 .footer-logo {
     font-family: 'Raleway';
@@ -305,6 +335,10 @@ body {
 
 .footer-logo-color {
     color: var(--footer-logo-color);
+}
+
+.footer-list {
+
 }
 
 .footer-item {
