@@ -13,24 +13,29 @@
 <body>
     <!----Шапка сайта-->
     <header class="header">
-        <a href="portfolio.html" lang="en" class="header-logo">
-            <span class="header-logo-color">Web</span>
-            <span>Studio</span>
-        </a> 
+        <div class="portfolio-header-container">
+            <a href="portfolio.html" lang="en" class="header-logo">
+                <span class="header-logo-color">Web</span>
+                <span>Studio</span>
+            </a> 
     </header>
-    <nav class="header-navigation" >
-        <ul class="header-list">
-            <li class="header-item"><a href="./index.html" class="header-link-active">Студия</a></li>
-            <li class="header-item"><a href="./portfolio.html" class="header-link" >Портфолио</a></li>
-            <li class="header-item"><a href="" class="header-link" >Контакты</a></li>
-        </ul>
-    </nav>  
-         <ul class="contacts-list">
-        <li class="contact-item"><a class="header-mail" href="mail:info@devstudio.com">info@devstudio.com</a></li>
-        <li class="contact-item"><a class="header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-         </ul>  
+        <nav class="header-navigation" >
+            <ul class="header-list">
+                <li class="header-item"><a href="./index.html" class="header-link-active">Студия</a></li>
+                <li class="header-item"><a href="./portfolio.html" class="header-link" >Портфолио</a></li>
+                <li class="header-item"><a href="" class="header-link" >Контакты</a></li>
+            </ul>
+        </nav>  
+            <div class="header-contact">
+                <ul class="contacts-list">
+                    <li class="contact-item"><a class="header-mail" href="mail:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="contact-item"><a class="header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul> 
+            </div>
+        </div> 
     <main>
          <section>
+        <div class="container">
         <h1 class="visuali-hidden">Портфолио</h1>
         <ul class="btn-list">
             <li><button type="button" class="button-secondary">Все</button></li>
@@ -101,10 +106,12 @@
                 </a>
             </li>
         </ul>
+        </div>
     </section>        
     </main>
          <!--Связь с веб студией-->
     <footer class="footer">
+        <div class="container">
         <a href="index.html" class="footer-logo"> <span class="footer-logo-color">Web</span> <span>Studio</span></a>
         <address class="footer-addres">
         <ul class="footer-list">
@@ -113,6 +120,7 @@
             <li class="footer-item"><a class="footer-text" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
         </address>
+        </div>
     </footer>
 </body>
 </html>
