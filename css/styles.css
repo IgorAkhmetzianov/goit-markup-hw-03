@@ -52,6 +52,7 @@ body {
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 25px;
+    margin-right: 93px;
 }
 
 .header-logo-color {
@@ -71,7 +72,7 @@ body {
 }
 
 .header-item {
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .header-navigation {
@@ -120,7 +121,7 @@ body {
 
 .contact-item {
     float: left;
-    padding-right: 20px;
+    padding-right: 50px;
     list-style: none;
 }
 
@@ -257,6 +258,7 @@ body {
     display: flex;
     list-style: none;
     padding: 0;
+    margin-top: 50px;
 }
 
 .section-work-title {
@@ -290,7 +292,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .team-list {
@@ -310,6 +313,8 @@ body {
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
+    text-align: center;
+
 }
 
 .team-text {
@@ -317,6 +322,7 @@ body {
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    text-align: center;
 }
 
 /*-------------footer------------*/
@@ -351,6 +357,8 @@ body {
 
 .footer-list {
     padding: 0;
+    margin-top: 35px;
+    margin-bottom: 45px ;
 }
 
 .footer-item {
@@ -362,6 +370,7 @@ body {
     line-height: 1.71;   
     letter-spacing: 0.03em;
     color: var(--footer-text-color);  
+    margin-bottom: 9px;
 }
 
 .footer-text {
@@ -369,6 +378,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-ft-text-color);
+    margin-bottom: 9px;
 }
 
 .footer-text {
