@@ -37,9 +37,6 @@ body {
     margin: 0 auto; 
 }
 
-
-
-
 .header-logo {
     float: left;
     font-family: 'Raleway';
@@ -79,8 +76,6 @@ body {
     height: 80px;
     float: left;
 }
-
-
 
 .header-link-active {   
     font-weight: 500;
@@ -124,7 +119,6 @@ body {
     padding-right: 50px;
     list-style: none;
 }
-
  
 .header-mail {
     font-weight: 500;
@@ -156,10 +150,6 @@ body {
 
 .hero {
     background-color: var(--footer-bg-color);
-}
-
-.hero-container {
-    
 }
 
 .hero-title {
@@ -338,7 +328,6 @@ body {
     margin: 0 auto;
     padding-top: 60px;
 }
-
 
 .footer-logo {
     font-family: 'Raleway';
