@@ -185,7 +185,7 @@ body {
 /*----------------content------------*/
 
  .content {
-    background: var(--main-bg-color);
+    background: var(--main-title-color);
  }
 
  .section {
@@ -221,6 +221,7 @@ body {
 }
 
 .content-item-title {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
@@ -229,6 +230,8 @@ body {
  }
 
 .content-text {
+    margin: 0;
+    padding: 0;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -238,7 +241,7 @@ body {
 /*-----------work----------*/
 
 .work {
-    background: var(--main-bg-color);
+    background: var(--main-title-color);
 }
 
 .section {
@@ -250,10 +253,11 @@ body {
     display: flex;
     list-style: none;
     padding: 0;
-    margin-top: 50px;
+    margin: 0;
 }
 
 .section-work-title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -283,6 +287,7 @@ body {
 
 .team-list {
     display: flex;
+    margin: 0;
     padding: 0;
     list-style: none;
 }
@@ -293,6 +298,8 @@ body {
 }
 
 .team-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -303,6 +310,8 @@ body {
 }
 
 .team-text {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -346,11 +355,12 @@ body {
 }
 
 .footer-text-addres {
+    margin-top: 20px;
+    margin-bottom: 9px;
     font-size: 14px;
     line-height: 1.71;   
     letter-spacing: 0.03em;
     color: var(--footer-text-color);  
-    margin-bottom: 9px;
 }
 
 .footer-text {
