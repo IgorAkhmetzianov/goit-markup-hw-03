@@ -1,7 +1,8 @@
 
 .header {
-    background: #FFFFFF; 
+    border-bottom: 1px solid #ECECEC;
 }
+
 
 .btn-list {
     margin-bottom: 50px;
@@ -12,6 +13,7 @@
 
 .button-secondary {
     border: none;
+    padding: 6px 22px;
     margin-right: 8px;
     font-size: 16px;
     line-height: 1.62;
@@ -31,13 +33,14 @@
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
+    flex-basis: 370px;
     justify-content: space-between;
     padding: 0;
     list-style: none;
 }
 
+
 .icon {
-    margin-left: 30px;
     margin-top: 30px;
 }
 
@@ -46,9 +49,10 @@
 }
 
 .box {
-    width: 322px;
-    height: 70px;
-    margin: 24px 20px;
+    padding: 24px 20px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .portfolio-sample { 
