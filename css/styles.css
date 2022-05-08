@@ -67,8 +67,6 @@ ul {
     color: var(--second-hdr-text-color);
 }
 
-
-
 .header-list {
     display: flex;
     text-decoration: none;
